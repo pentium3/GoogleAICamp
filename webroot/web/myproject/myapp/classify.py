@@ -1,7 +1,10 @@
 import math
 import os
 import sys
-sys.path.append('../')
+sys.path.append('./task1/')
+sys.path.append('./task2/')
+sys.path.append('./task3/')
+sys.path.append('./task4/')
 from task1 import *
 from task2 import *
 from task3 import *
