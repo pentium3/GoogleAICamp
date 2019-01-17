@@ -1,16 +1,15 @@
 import math
 import os
 import sys
-sys.path.append('./myproject/myapp/')
-sys.path.append('./myproject/myapp/task1/')
-sys.path.append('./myproject/myapp/task2/')
-sys.path.append('./myproject/myapp/task3/')
-sys.path.append('./myproject/myapp/task4/')
-from task1.task1 import *
-from task2.task2 import *
-from task3.task3 import *
-from task3.task3mask import *
-from task4.task4 import *
+sys.path.append('./task1/')
+sys.path.append('./task2/')
+sys.path.append('./task3/')
+sys.path.append('./task4/')
+from task1 import task1
+from task2 import task2
+from task3 import task3
+from task3mask import task3mask
+from task4 import task4
 
 #FILE='eg.txt'
 

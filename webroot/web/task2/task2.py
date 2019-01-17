@@ -416,7 +416,7 @@ class ConvNet(object):
         #
         # print(similar)
 
-if __name__ == '__main__':
+def task2(FILE, FILE2)
     model = ConvNet()
     model.build()
     model.train(n_epochs=1)
