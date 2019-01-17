@@ -1,14 +1,22 @@
 import math
 import os
 import sys
-
+sys.path.append('./myproject/myapp/')
+sys.path.append('./myproject/myapp/task1/')
+sys.path.append('./myproject/myapp/task2/')
+sys.path.append('./myproject/myapp/task3/')
+sys.path.append('./myproject/myapp/task4/')
+from task1.task1 import *
+from task2.task2 import *
+from task3.task3 import *
+from task3.task3mask import *
+from task4.task4 import *
 
 #FILE='eg.txt'
 
 
 def classify(FILE):
     try:
-
         task1file = '../media/task1file.jpg'    # croped head
         task2file = '../media/task2file.jpg'    # similiar cartoon
         task4file = '../media/task4file.jpg'    # pre-processed cartoon
