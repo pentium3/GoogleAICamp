@@ -14,11 +14,11 @@ from task4 import *
 
 def classify(FILE):
     try:
-    	task1file = '../media/task1file.jpg'	# croped head
-    	task2file = '../media/task2file.jpg'	# similiar cartoon
-    	task4file = '../media/task4file.jpg'	# pre-processed cartoon
-    	task3mask = '../media/task3mask.jpg'	# masked cartoon
-    	task3file = '../media/op3.jpg'	# finalized cartoon
+        task1file = '../media/task1file.jpg'    # croped head
+        task2file = '../media/task2file.jpg'    # similiar cartoon
+        task4file = '../media/task4file.jpg'    # pre-processed cartoon
+        task3mask = '../media/task3mask.jpg'    # masked cartoon
+        task3file = '../media/op3.jpg'    # finalized cartoon
         task1(FILE, task1file)
         task2(task1file, task2file)
         task4(task2file, task1file)
