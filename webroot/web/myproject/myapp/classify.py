@@ -1,15 +1,6 @@
 import math
 import os
 import sys
-sys.path.append('./task1/')
-sys.path.append('./task2/')
-sys.path.append('./task3/')
-sys.path.append('./task4/')
-from task1 import *
-from task2 import *
-from task3 import *
-from task3mask import *
-from task4 import *
 
 
 #FILE='eg.txt'
@@ -17,6 +8,15 @@ from task4 import *
 
 def classify(FILE):
     try:
+        sys.path.append('./task1/')
+        sys.path.append('./task2/')
+        sys.path.append('./task3/')
+        sys.path.append('./task4/')
+        from task1 import *
+        from task2 import *
+        from task3 import *
+        from task3mask import *
+        from task4 import *
         task1file = '../media/task1file.jpg'    # croped head
         task2file = '../media/task2file.jpg'    # similiar cartoon
         task4file = '../media/task4file.jpg'    # pre-processed cartoon
